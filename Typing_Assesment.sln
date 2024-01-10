@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Typing_Assesment", "Typing_Assesment\Typing_Assesment.pyproj", "{C4989A6A-E3EE-4456-8B73-7C8807E06EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4989A6A-E3EE-4456-8B73-7C8807E06EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4989A6A-E3EE-4456-8B73-7C8807E06EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4989A6A-E3EE-4456-8B73-7C8807E06EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4989A6A-E3EE-4456-8B73-7C8807E06EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EE3030B-CBDE-4B6F-9C68-851273B044E8}
+	EndGlobalSection
+EndGlobal

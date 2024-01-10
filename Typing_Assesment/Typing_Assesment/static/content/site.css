@@ -1,0 +1,143 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.assessment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between boxes */
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.assessment-box {
+    display: block;
+    width: 300px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    background-color: #f0f0f0; /* Example background color */
+    border: 2px solid #000; /* Example border */
+    text-align: center;
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Text color */
+}
+
+    .assessment-box:hover {
+        background-color: #e0e0e0; /* Slightly darker on hover for visual feedback */
+    }
+
+.assessment-title {
+    line-height: 200px; /* Centers text vertically */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+
+.dataentry-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.dataentry-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    gap: 20px; /* Space between forms */
+    flex-wrap: wrap; /* Wrap forms if needed */
+    width: 90%; /* Adjust as needed */
+    max-width: 1200px; /* Adjust as needed to accommodate both forms side by side */
+}
+
+.dataentry-form {
+    width: calc(50% - 10px); /* Half of the parent width minus half the gap */
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.name-group {
+    display: flex;
+    flex-direction: column; /* Stack input fields vertically */
+    margin-bottom: 10px; /* Space between input fields */
+}
+
+    .name-group label {
+        margin-bottom: 10px; /* Space between each label */
+    }
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+.typing-assessment-container {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+#generated-paragraph,
+#user-input {
+    width: 100%; /* Set to full width of their container */
+    max-width: 95vw; /* Set to 95% of the viewport width */
+    height: 300px; /* Height can remain the same or be adjusted as needed */
+    margin: 20px auto; /* Centers the text area with some space around */
+    display: block;
+    font-size: 18px; /* Adjust font size for readability */
+    padding: 15px; /* Adds some space inside the text area */
+    resize: none; /* Prevents resizing of the text area */
+    line-height: 1.6; /* Improves line spacing within the text area */
+    border: 1px solid #ccc; /* Adds a border for definition */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+}
+
+#generated-paragraph {
+    background-color: #f0f0f0; /* Light grey background for the disabled area */
+    border-color: #e0e0e0; /* Slightly darker border for the disabled area */
+}
+

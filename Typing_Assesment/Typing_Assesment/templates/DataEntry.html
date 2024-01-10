@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<body>
+    <div class="dataentry-container">
+        <div class="timer">
+            <span id="countdown">10:00</span>
+        </div>
+
+        <div class="dataentry-form-container">
+            <form class="dataentry-form dataentry-generated-info">
+                <fieldset>
+                    <legend>Generated Information</legend>
+                    <div class="name-group">
+                        <label>First Name: <input type="text" placeholder="First Name" disabled></label>
+                        <label>Last Name: <input type="text" placeholder="Last Name" disabled></label>
+                        <label>Address: <input type="text" placeholder="Address" disabled></label>
+                        <label>City: <input type="text" placeholder="City" disabled></label>
+                        <label>State: <input type="text" placeholder="State" disabled></label>
+                        <label>Zip Code: <input type="text" placeholder="Zip Code" disabled></label>
+                        <label>Company: <input type="text" placeholder="Company" disabled></label>
+                        <label>Position: <input type="text" placeholder="Position" disabled></label>
+                    </div>
+                    <!-- Other input fields -->
+                </fieldset>
+            </form>
+            <form class="dataentry-form dataentry-user-input">
+                <fieldset>
+                    <legend>User Input</legend>
+                    <div class="name-group">
+                        <label>First Name: <input type="text" placeholder="First Name"></label>
+                        <label>Last Name: <input type="text" placeholder="Last Name"></label>
+                        <label>Address: <input type="text" placeholder="Address"></label>
+                        <label>City: <input type="text" placeholder="City"></label>
+                        <label>State: <input type="text" placeholder="State"></label>
+                        <label>Zip Code: <input type="text" placeholder="Zip Code"></label>
+                        <label>Company: <input type="text" placeholder="Company"></label>
+                        <label>Position: <input type="text" placeholder="Position"></label>
+                    </div>
+                    <!-- Other input fields -->
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+{% endblock %}
